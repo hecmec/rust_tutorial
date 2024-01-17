@@ -1,0 +1,18 @@
+# Ignore compiled output
+*/target/*
+
+# Ignore Cargo.lock file
+# ignore cargo lock files in all subdirectories
+**/Cargo.lock
+
+# Ignore editor-specific files
+.idea/
+.vscode/
+
+# Ignore build artifacts
+*.rs.bk
+
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
