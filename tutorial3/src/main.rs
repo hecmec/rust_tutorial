@@ -1,3 +1,7 @@
+// you can give custom instructions to teh compiler with the following line
+#![allow(unused_variables)]
+#![allow(dead_code)]
+
 fn main() {
     // immutable variable by default
     let x: i32 = 4;
